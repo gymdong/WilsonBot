@@ -6,7 +6,7 @@ import time
 from discord.ext import commands
 from bs4 import BeautifulSoup
 
-token = "ODU4MzIyNzE1ODMyMzUyODAw.YNcdUg.x0oBUzaP_irR4uSvwK-mOhXXuaE"
+token = "${{ secrets.TOKEN }}"
 ER_KEY = "XsOnGlLvky6sSAOmWZP6F4DVlzHNkiqWaclCzvXl"
 ER_URL = "https://open-api.bser.io/v1"
 header_params = {"x-api-key": ER_KEY}
